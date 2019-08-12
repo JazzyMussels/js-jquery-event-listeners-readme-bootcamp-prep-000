@@ -18,7 +18,7 @@ function pressIt() {
 }
 
 function submitIt() {
-  $(document).on('submit', function() {
+  $('form').on('submit', function() {
     if ($('input:first').val() === 'correct') {
       alert('your form is going to be submitted now')
     }
@@ -26,7 +26,5 @@ function submitIt() {
 }
 
 $(document).ready(function(){
-
-// call functions here
-
+  submitIt()
 });
