@@ -5,6 +5,15 @@ function getIt() {
   })
 }
 
+function frameIt() {
+  
+}
+
+function pressIt() {
+  $(document).on('keydown', function(key) {
+    if(key,which == )
+  })
+}
 $(document).ready(function(){
 
 // call functions here
